@@ -1,0 +1,10 @@
+<Placemark>
+    <name><![CDATA[{name}]]></name>
+    <description><![CDATA[{description}]]></description>
+    <styleUrl>{style}</styleUrl>
+    <Point>
+        <coordinates>
+            {lon},{lat},0
+        </coordinates>
+    </Point>
+</Placemark>
