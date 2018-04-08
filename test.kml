@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Polygon 12</name>
+      <description>31.03.2018 11:07:25</description>
+      <Style>
+        <LineStyle>
+          <color>A6000000</color>
+          <width>2</width>
+        </LineStyle>
+        <PolyStyle>
+          <color>33FFFFFF</color>
+          <fill>1</fill>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>27.5862610031116,54.0139891986015,0 27.6459991622913,53.972815467941,0 27.7077972579944,53.934430757927,0 27.7160370040882,53.8810375409774,0 27.70917054901,53.8316285550725,0 27.6501190353382,53.8129837904085,0 27.5656616378772,53.8040637960222,0 27.4612915206897,53.8113621144196,0 27.4049865890491,53.8405426838043,0 27.3809539962757,53.8692980670994,0 27.3589813400257,53.9049111266607,0 27.3706543136585,53.9473642910061,0 27.4022400070178,53.9752385792264,0 27.456485002135,54.0018835041271,0 27.5862610031116,54.0139891986015,0 </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

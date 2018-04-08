@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Лесные угодия д. Соловьи</name>
+    <description><![CDATA[Данная карта составлена исходя из личного пребывания на территориях и наблюдения.<br><br><br>]]></description>
+    <Style id="icon-1603-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1603-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1603-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1603-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1603-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-E65100-nodesc-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-E65100-nodesc-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-E65100-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-E65100-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-E65100-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-558B2F-1200-77-normal">
+      <LineStyle>
+        <color>ff2f8b55</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d2f8b55</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-558B2F-1200-77-highlight">
+      <LineStyle>
+        <color>ff2f8b55</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d2f8b55</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-558B2F-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-558B2F-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-558B2F-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-880E4F-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d4f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-880E4F-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff4f0e88</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d4f0e88</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-880E4F-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-880E4F-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-880E4F-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-BCAAA4-1200-77-normal">
+      <LineStyle>
+        <color>ffa4aabc</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4da4aabc</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-BCAAA4-1200-77-highlight">
+      <LineStyle>
+        <color>ffa4aabc</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4da4aabc</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-BCAAA4-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-BCAAA4-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-BCAAA4-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FF5252-1200-77-normal">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d5252ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FF5252-1200-77-highlight">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d5252ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FF5252-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FF5252-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FF5252-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Участок леса под Защиту</name>
+        <description><![CDATA[Этот участок леса не является охотничьим угодием, при этом животных перегоняют из прилегающего охотничьего угодия и отстреливают в этом лесу и на поле. <br>Тут также расположен сосновый лес и произрастает черничник]]></description>
+        <styleUrl>#poly-558B2F-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                27.9142857,53.5282174,0
+                27.9062176,53.5170935,0
+                27.9062176,53.5085701,0
+                27.9055309,53.5059668,0
+                27.902441,53.5046906,0
+                27.902441,53.5032612,0
+                27.9040718,53.5021381,0
+                27.9077625,53.5001981,0
+                27.9196072,53.4999428,0
+                27.9215813,53.501117,0
+                27.9222679,53.5022402,0
+                27.9212379,53.506222,0
+                27.9222679,53.5074471,0
+                27.9219246,53.5089784,0
+                27.924242,53.5106628,0
+                27.9255295,53.5112243,0
+                27.9286194,53.5111732,0
+                27.9289627,53.5126023,0
+                27.9323959,53.5141335,0
+                27.925272,53.5185735,0
+                27.9157448,53.5257683,0
+                27.9142857,53.5282174,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>выборочная рубка леса. Возможно рубки ухода. </name>
+        <description>Возможно рубки ухода, однако деревья рубят крупные, диаметром от 40 до 60 см. Береза, осина. </description>
+        <styleUrl>#poly-BCAAA4-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                27.920208,53.5222859,0
+                27.9180622,53.5195303,0
+                27.9200363,53.5170808,0
+                27.923212,53.5156518,0
+                27.9321385,53.5143249,0
+                27.9341985,53.5141207,0
+                27.9355718,53.5153456,0
+                27.9335118,53.5177442,0
+                27.9301644,53.5181015,0
+                27.9302503,53.518969,0
+                27.9250145,53.5187649,0
+                27.920208,53.5222859,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>старый дуб у дороги. </name>
+        <description>Предположительно возраст 60-70 лет.</description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            27.9285631,53.5209512,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>охотничий домик.</name>
+        <styleUrl>#icon-1899-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            27.9001665,53.514899,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>начало охотничьего угодия</name>
+        <styleUrl>#icon-1899-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            27.9057348,53.5169069,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>болота верховые с клюквой </name>
+        <description>На этих болотах произрастает клюква, богульних, низкорослая болотная сосна, пушица. </description>
+        <styleUrl>#poly-FF5252-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                27.9158306,53.5143376,0
+                27.9135132,53.5104076,0
+                27.9153156,53.5090295,0
+                27.9177189,53.5090805,0
+                27.9184055,53.5097441,0
+                27.9202938,53.5092847,0
+                27.9202938,53.508519,0
+                27.9219246,53.5089784,0
+                27.9222679,53.5074471,0
+                27.9212379,53.506222,0
+                27.9222679,53.5022402,0
+                27.9215813,53.501117,0
+                27.9196072,53.4999428,0
+                27.9200363,53.498258,0
+                27.9259586,53.4995344,0
+                27.9265594,53.5017807,0
+                27.926302,53.503006,0
+                27.9270744,53.503006,0
+                27.9279327,53.5038227,0
+                27.930336,53.5035165,0
+                27.9316235,53.5036696,0
+                27.9320526,53.5031591,0
+                27.9307652,53.502036,0
+                27.9301643,53.4997897,0
+                27.9327393,53.5004534,0
+                27.9353142,53.500147,0
+                27.9365158,53.4995344,0
+                27.9372883,53.4993302,0
+                27.9381466,53.4994323,0
+                27.9383183,53.500147,0
+                27.9392624,53.5006576,0
+                27.9417515,53.4997386,0
+                27.945528,53.4997897,0
+                27.9456139,53.5016276,0
+                27.9485321,53.5025975,0
+                27.9483604,53.5033633,0
+                27.9461288,53.5048948,0
+                27.9463005,53.5057626,0
+                27.9469872,53.5068346,0
+                27.9441547,53.5087743,0
+                27.9415798,53.5088253,0
+                27.9393482,53.5097441,0
+                27.9377174,53.5098972,0
+                27.9368591,53.5093868,0
+                27.9334259,53.5098462,0
+                27.9293919,53.510867,0
+                27.9286194,53.5111732,0
+                27.9255295,53.5112243,0
+                27.9277611,53.512092,0
+                27.9278469,53.5133679,0
+                27.9281902,53.5145928,0
+                27.9243279,53.5158177,0
+                27.9221821,53.5150521,0
+                27.9196072,53.5158177,0
+                27.9174614,53.5153073,0
+                27.9158306,53.5143376,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Сухое болото с кочками. Нет воды.</name>
+        <styleUrl>#poly-880E4F-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                27.9142857,53.5282174,0
+                27.9118824,53.5306663,0
+                27.9068184,53.5301561,0
+                27.9049301,53.5278602,0
+                27.9005527,53.5276051,0
+                27.897892,53.529901,0
+                27.8945446,53.5291357,0
+                27.8960896,53.5257683,0
+                27.9005527,53.5266357,0
+                27.9020119,53.5265337,0
+                27.9020119,53.5244417,0
+                27.9061317,53.522962,0
+                27.9006386,53.5219925,0
+                27.8991795,53.5207167,0
+                27.9014111,53.5197472,0
+                27.9002094,53.5180632,0
+                27.9062176,53.5170935,0
+                27.9105091,53.5176039,0
+                27.9123116,53.5201554,0
+                27.9134274,53.5228089,0
+                27.9157448,53.5257683,0
+                27.9142857,53.5282174,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>найден лось-одногодка. мертвый.</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/iwA_exvLRxJTpTPRIiwZTTPeHCJZ83sJ0fhzuyrH5z-W8B_-NdwbYIGfWhKGbBuG2LY5wGBlAW3hEbMW7kXPINVowSOwq3rQDrUHyRLHY-wQJDaihx7PzZLPJI4Xg5Kk7oPNDg" height="200" width="auto" /><br><br><br><br><img src="https://lh3.googleusercontent.com/mIuapw6KW_sUIJC5Oa6vIw9rI0TnM63_XV-dauulPupWdxeUbNFkJTdMB_sl4Albvg7MTtOZZkS0EaNxsBVanVFiiYUsCJdmWd3_RisQ6ktjYikOCVPzX3AddKQxCBGu0uUL" height="200" width="auto" /><br><br><img src="https://lh5.googleusercontent.com/-8wu3PRofYv0IdA8jR10srJ_GbiEgPJQortG6zNBnWx2pnAUn0oAKEb0ly_V5VE6AStc0TELKNsFxOU0jAr9pfnMvFBM4nhNCDTqRcCesjpBYjWjhWVsMOt7saLGo1alzpLyDGM" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-E65100</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/iwA_exvLRxJTpTPRIiwZTTPeHCJZ83sJ0fhzuyrH5z-W8B_-NdwbYIGfWhKGbBuG2LY5wGBlAW3hEbMW7kXPINVowSOwq3rQDrUHyRLHY-wQJDaihx7PzZLPJI4Xg5Kk7oPNDg https://lh3.googleusercontent.com/mIuapw6KW_sUIJC5Oa6vIw9rI0TnM63_XV-dauulPupWdxeUbNFkJTdMB_sl4Albvg7MTtOZZkS0EaNxsBVanVFiiYUsCJdmWd3_RisQ6ktjYikOCVPzX3AddKQxCBGu0uUL https://lh5.googleusercontent.com/-8wu3PRofYv0IdA8jR10srJ_GbiEgPJQortG6zNBnWx2pnAUn0oAKEb0ly_V5VE6AStc0TELKNsFxOU0jAr9pfnMvFBM4nhNCDTqRcCesjpBYjWjhWVsMOt7saLGo1alzpLyDGM</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            27.9246551,53.5184969,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>мой дом</name>
+        <styleUrl>#icon-1603-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            27.9268035,53.522297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>testing_map</name>
+    <description/>
+    <Style id="poly-F57C00-1200-77-normal">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d007cf5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-F57C00-1200-77-highlight">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d007cf5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-F57C00-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F57C00-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F57C00-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Слой без названия</name>
+      <Placemark>
+        <name>Полигон</name>
+        <description>just test description</description>
+        <styleUrl>#poly-F57C00-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                27.0040513,54.1224636,0
+                27.0008756,54.1197976,0
+                26.9992448,54.1172823,0
+                26.9992448,54.1143141,0
+                27.0014764,54.11205,0
+                27.0043088,54.1117984,0
+                27.0037938,54.1096852,0
+                27.0087719,54.1085279,0
+                27.0086861,54.1116475,0
+                27.0156383,54.1101884,0
+                27.017269,54.1117481,0
+                27.026882,54.1127544,0
+                27.0279978,54.1152699,0
+                27.0277403,54.118389,0
+                27.0272253,54.1197473,0
+                27.0225047,54.1243247,0
+                27.0171832,54.1280466,0
+                27.0148658,54.1251798,0
+                27.0129776,54.1268395,0
+                27.0109177,54.1279963,0
+                27.0085144,54.1282478,0
+                27.0068836,54.1277951,0
+                27.0061112,54.1265881,0
+                27.0087719,54.1251798,0
+                27.0105743,54.1241235,0
+                27.0079994,54.1239726,0
+                27.0040513,54.1224636,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

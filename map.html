@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  <link rel="icon" type="image/png" href="/icon.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>BY nature's points</title>
+  <style type="text/css">
+    html, body, #map {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    #capture {
+	    /* height: 360px; */
+	    width: 200px;
+	    overflow: hidden;
+	    position: absolute;
+	    top: 50px;
+	    left: 10px;
+	    /* float: left; */
+	    z-index: 999;
+	    background-color: #ECECFB;
+	    border: thin solid #333;
+	    /* border-left: none; */
+	    padding: 5px;
+    }
+  </style>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="map"></div>
+<div id="capture" style="display: none;"></div>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC60k2XXueLBfKAtGFta-kH0OL-UfNasqA&language=ru&region=RU&callback=initMap"></script>
+
+<script type="text/javascript">
+	function initMap() {
+        var element = document.getElementById("map");
+
+        /*
+		Build list of map types.
+		You can also use var mapTypeIds = ["roadmap", "satellite", "hybrid", "terrain", "OSM"]
+		but static lists sucks when google updates the default list of map types.
+		*/
+        var mapTypeIds = [];
+        for(var type in google.maps.MapTypeId) {
+            mapTypeIds.push(google.maps.MapTypeId[type]);
+        }
+        mapTypeIds.push("OSM");
+        mapTypeIds.push("topo");
+
+        map = new google.maps.Map(element, {
+            center: new google.maps.LatLng(53.917938, 27.600419),
+            zoom: 8,
+            mapTypeId: "OSM",
+            mapTypeControlOptions: {
+                mapTypeIds: mapTypeIds
+            }
+        });
+
+        map.mapTypes.set("OSM", new google.maps.ImageMapType({
+            getTileUrl: function(coord, zoom) {
+                return "http://tile.openstreetmap.org/" + zoom + "/" + coord.x + "/" + coord.y + ".png";
+            },
+            tileSize: new google.maps.Size(256, 256),
+            name: "OpenStreetMap",
+            maxZoom: 18
+        }));
+        map.mapTypes.set("topo", new google.maps.ImageMapType({
+            getTileUrl: function(coord, zoom) {
+                return "http://a.tile.opentopomap.org/" + zoom + "/" + coord.x + "/" + coord.y + ".png";
+            },
+            tileSize: new google.maps.Size(256, 256),
+            name: "OpenTopoMap",
+            maxZoom: 18
+        }));
+
+        kmlLayer = new google.maps.KmlLayer(
+            "http://nature.ilving.name/hzmicer.carto.com.kml?rand=" + (new Date().getMinutes()) + "." + (new Date().getHours()),
+            {
+                suppressInfoWindows: true,
+                preserveViewport: false,
+                map: map
+            }
+        );
+        kmlLayer.addListener('click', function(event) {
+            var content = event.featureData.infoWindowHtml;
+            $("#capture").html(content).show();
+        });
+        map.addListener('click', function(event) {
+            $("#capture").hide();
+        });
+
+    }
+</script>
+</body>
+</html>

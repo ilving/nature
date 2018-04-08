@@ -1,0 +1,6 @@
+Order Allow,Deny
+Allow from all
+DirectoryIndex map.html
+
+RewriteEngine on
+RewriteRule ^(.*)\.kml$ /data/kml.php?name=$1
